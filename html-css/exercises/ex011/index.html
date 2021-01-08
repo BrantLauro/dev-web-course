@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Medias in HTML</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; background-color: gray; color: white;">
+    <h1>Flex Images and Audios</h1>
+    <h2>Flex Images</h2>
+    <p>The Image Below change according to the size of the browser</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/img-s.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/img-m.png" type="image/png">
+        <img src="images/img-b.png" alt="Image for tests">
+    </picture>
+    <h2>Audios</h2>
+    <p>Let's study how to put audios on a site using HTML</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/guanacast-33.mp3" type="audio/mpeg">
+        <source src="media/guanacast-33.ogg" type="audio/ogg">
+        <source src="media/guanacast-33.wav" type="audio/wav">
+        <p>Your browser can not play audios. <a href="media/guanacast-33.mp3" >Click Here</a> to download the mp3 file</p>
+    </audio>
+</body>
+</html>

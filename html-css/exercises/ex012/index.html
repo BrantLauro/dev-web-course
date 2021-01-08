@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Videos in HTML5</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; background-color: gray; color: white;">
+    <h1>Self Hosted Videos</h1>
+    <video width="560" height="315" autoplay controls loop poster="./lemon-tumb.png">
+        <source src="media/my-video.mp4" type="video/mp4">
+        <source src="media/my-video.m4v" type="video/mp4">
+        <source src="media/my-video.webm" type="video/webm">
+        <source src="media/my-video.ogg" type="video/ogg">
+        <p>Your browser can not play vídeos</p>
+    </video>
+    <h1>Youtube Videos</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Vimeo Videos</h1>
+    <iframe src="https://player.vimeo.com/video/197093965?loop=1&color=ff9933" width="560" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</body>
+</html>
