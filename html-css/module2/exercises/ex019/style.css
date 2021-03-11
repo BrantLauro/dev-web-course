@@ -1,16 +1,19 @@
 * {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background-image: linear-gradient(to right, #B84BFF, #D697FF);
 }
 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     text-shadow: 1px 1px 2px #06534488;
     color: #0B8F74;
 }
 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
     color: #0B8F49;
 }
 
