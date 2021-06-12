@@ -7,20 +7,34 @@ body {
     font-family: 'San Francisco', sans-serif;
     background-image: linear-gradient(to right, #B84BFF, #D697FF);
 }
-h1{
+
+h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30pt;
     text-align: center;
     text-shadow: 1px 1px 2px #06534488;
     color: #0B8F74;
 }
-h2{
+
+h1#main {
+    font-family: fantasy;
+    color: #B84BFF;
+    font-size: 40pt;
+}
+
+h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     color: #0B8F49;
 }
 
+.h2_main {
+    font-family: monospace;
+    color: #D697FF;
+}
+
 p {
-    text-align: start;
+    text-align: justify;
 }
 
 main {

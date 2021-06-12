@@ -1,0 +1,27 @@
+.standard_div {
+    display: inline-block;
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+    background-color: rgb(141, 141, 255);
+}
+
+#secret_div > p {
+    display: none;
+}
+
+#secret_div:hover {
+    color: red;
+}
+
+#secret_div:hover > p{
+    display: block;
+    color: white;
+    background-color: red;
+
+}
