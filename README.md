@@ -24,3 +24,14 @@
     </a>
 </p>
 
+### ©️ Copyrights
+
+Licensed with MIT.
+
+---
+
+> LinkedIn [Lauro Brant](https://www.linkedin.com/in/lauro-brant-4858861b3/) &nbsp;&middot;&nbsp;
+> GitHub [BrantLauro](https://github.com/BrantLauro) &nbsp;&middot;&nbsp;
+> Twitter [@BrantLauro](https://twitter.com/BrantLauro) &nbsp;&middot;&nbsp;
+> Instagram [@brantlauro](https://www.instagram.com/brantlauro/) &nbsp;&middot;&nbsp;
+
