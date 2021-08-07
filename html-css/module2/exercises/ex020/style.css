@@ -23,5 +23,8 @@ div:hover {
     display: block;
     color: white;
     background-color: red;
+}
 
+a::after {
+    content: ' [link]';
 }
