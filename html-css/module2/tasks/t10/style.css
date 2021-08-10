@@ -48,7 +48,7 @@ header {
     color: var(--color-0);
     background-image: linear-gradient(var(--color-3), var(--color-4), var(--color-5));
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
-    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.466);
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.466);
     padding: 10px;
 }
 
@@ -68,11 +68,13 @@ main {
     border-radius: 0px 0px 10px 10px;
     box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.479);
     background-color: var(--color-0);
+    line-height: 1.8em;
     max-width: 800px;
     min-width: 400px;
     padding: 20px;
     justify-content: center;
 }
+
 #main-title {
     background-color: var(--color-0);
 }
@@ -102,11 +104,19 @@ main {
 #extra-div {
     margin: 20px;
     background-color: var(--color-2);
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.479);
     border-radius: 10px;
 }
 
 #extra-div > p {
     padding: 0px 10px 10px 10px;
+}
+
+ul {
+    text-align: left;
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
 }
 
 #extra-title {
