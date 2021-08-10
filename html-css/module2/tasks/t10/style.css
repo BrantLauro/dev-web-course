@@ -55,6 +55,25 @@ main {
     padding: 10px;
 }
 
+#extra-div {
+    margin: 20px;
+    background-color: #49F281;
+    border-radius: 10px;
+}
+
+#extra-div > p {
+    padding: 0px 10px 10px 10px;
+}
+
+#extra-title {
+    background-color: #00660F;
+    color: #ffff;
+    text-align: left;
+    font-size: 1.5em;
+    padding-left: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
 footer {
     background-color: #00660F;
     padding: 10px;
