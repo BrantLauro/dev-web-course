@@ -12,19 +12,30 @@ body {
 }
 
 p {
+    text-indent: 30px;
     text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 header {
     text-align: center;
     color: #ffff;
-    background-image: linear-gradient(#00660F, #01E623);
+    background-image: linear-gradient(#01E623, #00660F);
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.479);
     padding: 10px;
 }
 
 nav {
     text-align: left;
-    font-weight: bolder;
+    font-size: 1.2em;
 }
 
 #header-title {
@@ -33,10 +44,13 @@ nav {
 
 main {
     margin: auto;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.479);
     background-color: #ffff;
     width: 1400px;
     padding: 10px;
-    justify-content: center
+    justify-content: center;
 }
 #main-title {
     background-color: #ffff;
