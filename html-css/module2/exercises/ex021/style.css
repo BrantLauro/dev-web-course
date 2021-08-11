@@ -1,0 +1,69 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #46EAD1;
+    color: #ffff;
+}
+
+header {
+    background-color: #1F665B;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.466);
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px 0px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.466);
+}
+
+nav {
+    background-color: #00B398;
+    padding: 10px;
+    font-weight: bolder;
+    word-spacing: 10px;
+    font-size: 1.2em;
+    border-radius: 10px 0px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.466);
+}
+
+nav > a {
+    text-decoration: none;
+    color: #ffff;
+    text-shadow: none;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: #1F665B;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 10px 0px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.466);
+    padding: 30px;
+}
+
+article {
+    background-color: #00B398;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 10px 0px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.466);
+    padding: 30px;
+}
+
+aside {
+    background-color: #46EAD1;
+    color: rgb(0, 0, 0);
+    border-radius: 10px 0px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.466);
+    padding: 5px;
+}
+
+footer {
+    background-color: #1F665B;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 10px 0px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.466);
+    padding: 30px;
+}
